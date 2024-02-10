@@ -18,4 +18,15 @@ func main() {
 	for i := range 3 {
 		fmt.Println("range", i)
 	}
+
+	for {
+		fmt.Println("loop")
+		break
+	}
+
+	for n := range 6 {
+		if n%2 == 0 {
+			fmt.Println(n)
+		}
+	}
 }
